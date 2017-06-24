@@ -1,0 +1,119 @@
+Working for station Neuquen
+Reading binary data from LICEL from 2017-06-02 00:00:00 to 2017-06-24 18:43:00
+Looking for binary raw data in /home/lmingari/savernet/Neuquen/
+Output file (NetCDF format): ncurrent.nc
+Using File size: 82492
+Found file:  /home/lmingari/lidar_v2.1/Raw_data/ncurrent.nc
+Time range found: 2017-06-24 17:00:00-2017-06-24 17:45:00
+Reading folder:  20170624/
+************ ch1 ************
+Using channel: 532 nm
+End:  2017-06-24 17:15:26
+Name:  n1762417.152606
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -68.1
+Channels:  5
+Start:  2017-06-24 17:15:16
+HeightASL:  266.0
+Station:  LidarNQN
+Laser1Shots:  301
+Laser1Frequency:  30
+Latitude:  -39.0
+************ ch2 ************
+Using channel: 532 nm
+End:  2017-06-24 17:15:26
+Name:  n1762417.152606
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -68.1
+Channels:  5
+Start:  2017-06-24 17:15:16
+HeightASL:  266.0
+Station:  LidarNQN
+Laser1Shots:  301
+Laser1Frequency:  30
+Latitude:  -39.0
+************ ch3 ************
+Using channel: 1064 nm
+End:  2017-06-24 17:15:26
+Name:  n1762417.152606
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -68.1
+Channels:  5
+Start:  2017-06-24 17:15:16
+HeightASL:  266.0
+Station:  LidarNQN
+Laser1Shots:  301
+Laser1Frequency:  30
+Latitude:  -39.0
+Updating file:  ncurrent.nc
+**********************
+Updating file: /home/lmingari/lidar_v2.1/Raw_data/ncurrent.nc
+Done!
+**********************
+Opening file:  /home/lmingari/lidar_v2.1/Raw_data/ncurrent.nc
+Max Value for channel 1: 304.014953613 mV km2
+Max Value for channel 2: 256.603515625 mV km2
+Max Value for channel 3: 2535.87426758 mV km2
+Performing power corrections...
+**** Function power ****
+Power file not found: /home/lmingari/lidar_v2.1/Output/Neuquen/power.cfg
+**** Function depol ****
+Linear fit: slope=0.497287887592
+Performing overlap corrections...
+**** Function overlap ****
+Overlap File: /home/lmingari/lidar_v2.1/Output/Neuquen/overlap.cfg
+Checking file consistence...
+OK
+**** Function overlap ****
+Overlap File: /home/lmingari/lidar_v2.1/Output/Neuquen/overlap.cfg
+Checking file consistence...
+OK
+**** Function vis_factor ****
+Index of maximum in histogram: 28
+Maximum histogram: -0.666666666667
+**** Function color_ratio ****
+Number of Cloud points: 10177 - Color Ratio: 0.000250508989481
+Plotting channel relation...
+Calibration factor - Visible channel: 46415.8883361
+Calibration factor - IR channel: 3991.87271512
+Vis. channel: min=-1447463.75, max=15505756.0
+IR channel: min=-144363.8125, max=10122888.0
+REBIN successful. Vertical resolution: 30.0000011921 m
+Calibration constant: 7435522391.78
+Changing boundary condition bsc_ini = -3.7963031447e-07
+Changing boundary condition bsc_ini = -8.61235000846e-07
+Changing boundary condition bsc_ini = -1.26869857688e-06
+Changing boundary condition bsc_ini = -4.15314604403e-07
+Changing boundary condition bsc_ini = -3.43340162948e-07
+Changing boundary condition bsc_ini = -1.08937221673e-06
+Changing boundary condition bsc_ini = -1.94376244141e-07
+Changing boundary condition bsc_ini = -1.38572832117e-06
+Changing boundary condition bsc_ini = -1.55998676977e-07
+Changing boundary condition bsc_ini = -1.29497049508e-06
+Changing boundary condition bsc_ini = -6.04960439719e-07
+Max. Att. Backscatter: 0.00151172767799
+Plotting attenuated backscatter coefficients...
+Original data: 1368000 points
+Using horizontal rebin with wx=2
+Original data: 1368000 points
+Using horizontal rebin with wx=2
+Plotting extinction coefficients...
+Original data: 684000 points
+Original data: 684000 points
+Plotting depolarization ratio...
+Original data: 1368000 points
+Using horizontal rebin with wx=2
+Creating monthly NetCDF files
+**** Function monthly_ncd ****
+Found file:  06_2017.nc
+**********************
+Updating file: /home/lmingari/lidar_v2.1/Output/Neuquen/06_2017.nc
+600 300
+Done!
+******** Done ! **********

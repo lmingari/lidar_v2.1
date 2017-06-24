@@ -1,0 +1,213 @@
+Working for station Tucuman
+Reading binary data from LICEL from 2017-06-02 00:00:00 to 2017-06-24 18:43:00
+Looking for binary raw data in /home/lmingari/savernet/Tucuman/
+Output file (NetCDF format): tcurrent.nc
+Using File size: 82492
+Found file:  /home/lmingari/lidar_v2.1/Raw_data/tcurrent.nc
+Time range found: 2017-06-24 17:00:00-2017-06-24 18:00:00
+Reading folder:  20170624/
+************ ch1 ************
+Using channel: 532 nm
+End:  2017-06-24 17:00:20
+Name:  t1762417.002028
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -65.1
+Channels:  5
+Start:  2017-06-24 17:00:10
+HeightASL:  10.0
+Station:  LidarTUC
+Laser1Shots:  301
+Laser1Frequency:  30
+Latitude:  -26.5
+************ ch2 ************
+Using channel: 532 nm
+End:  2017-06-24 17:00:20
+Name:  t1762417.002028
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -65.1
+Channels:  5
+Start:  2017-06-24 17:00:10
+HeightASL:  10.0
+Station:  LidarTUC
+Laser1Shots:  301
+Laser1Frequency:  30
+Latitude:  -26.5
+************ ch3 ************
+Using channel: 1064 nm
+End:  2017-06-24 17:00:20
+Name:  t1762417.002028
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -65.1
+Channels:  5
+Start:  2017-06-24 17:00:10
+HeightASL:  10.0
+Station:  LidarTUC
+Laser1Shots:  301
+Laser1Frequency:  30
+Latitude:  -26.5
+Updating file:  tcurrent.nc
+**********************
+Updating file: /home/lmingari/lidar_v2.1/Raw_data/tcurrent.nc
+Done!
+**********************
+Opening file:  /home/lmingari/lidar_v2.1/Raw_data/tcurrent.nc
+Max Value for channel 1: 22.6171131134 mV km2
+Max Value for channel 2: 26.3271961212 mV km2
+Max Value for channel 3: 105.106056213 mV km2
+Performing power corrections...
+**** Function power ****
+Power file not found: /home/lmingari/lidar_v2.1/Output/Tucuman/power.cfg
+**** Function depol ****
+Linear fit: slope=0.0095604347012
+Performing overlap corrections...
+**** Function overlap ****
+Overlap File: /home/lmingari/lidar_v2.1/Output/Tucuman/overlap.cfg
+Checking file consistence...
+Overlap File not found
+**** Function overlap ****
+Overlap File: /home/lmingari/lidar_v2.1/Output/Tucuman/overlap.cfg
+Checking file consistence...
+Overlap File not found
+**** Function vis_factor ****
+Index of maximum in histogram: 20
+Maximum histogram: -1.33333333333
+**** Function color_ratio ****
+Number of Cloud points: 6221 - Color Ratio: 1.98187755594e-05
+Plotting channel relation...
+Calibration factor - Visible channel: 215443.469003
+Calibration factor - IR channel: 50457.2039279
+Vis. channel: min=-3837513.75, max=5121271.5
+IR channel: min=-530067.25, max=5303358.0
+REBIN successful. Vertical resolution: 30.0000011921 m
+Calibration constant: 5895268512.1
+Changing boundary condition bsc_ini = -7.01825379952e-07
+Changing boundary condition bsc_ini = -3.73073769335e-07
+Changing boundary condition bsc_ini = -6.02943304905e-07
+Changing boundary condition bsc_ini = -3.04101933131e-07
+Changing boundary condition bsc_ini = -1.4543270397e-07
+Changing boundary condition bsc_ini = -2.88730924733e-07
+Changing boundary condition bsc_ini = -3.00224089666e-08
+Changing boundary condition bsc_ini = -5.61633187139e-07
+Changing boundary condition bsc_ini = -2.73438340247e-07
+Changing boundary condition bsc_ini = -2.01589830665e-08
+Changing boundary condition bsc_ini = -6.0281212865e-07
+Changing boundary condition bsc_ini = -1.71564805267e-07
+Changing boundary condition bsc_ini = -4.2614535784e-07
+Changing boundary condition bsc_ini = -5.28946427043e-08
+Changing boundary condition bsc_ini = -8.52688220785e-08
+Changing boundary condition bsc_ini = -9.6186442634e-08
+Changing boundary condition bsc_ini = -2.22409223831e-07
+Changing boundary condition bsc_ini = -1.65102690354e-07
+Changing boundary condition bsc_ini = -2.49552780458e-07
+Changing boundary condition bsc_ini = -2.23125834002e-07
+Changing boundary condition bsc_ini = -3.24393691432e-08
+Changing boundary condition bsc_ini = -5.75606190062e-08
+Changing boundary condition bsc_ini = -1.57293368592e-07
+Changing boundary condition bsc_ini = -3.49123731247e-07
+Changing boundary condition bsc_ini = -1.31409339958e-07
+Changing boundary condition bsc_ini = -4.23974221713e-07
+Changing boundary condition bsc_ini = -4.18087248053e-07
+Changing boundary condition bsc_ini = -3.19281997634e-07
+Changing boundary condition bsc_ini = -3.56510262891e-07
+Changing boundary condition bsc_ini = -2.33322887327e-07
+Changing boundary condition bsc_ini = -6.14600561247e-07
+Changing boundary condition bsc_ini = -3.66116531725e-07
+Changing boundary condition bsc_ini = -1.86857370956e-07
+Changing boundary condition bsc_ini = -5.1245554697e-07
+Changing boundary condition bsc_ini = -4.16447412968e-07
+Changing boundary condition bsc_ini = -4.32770172581e-07
+Changing boundary condition bsc_ini = -4.44005430678e-07
+Changing boundary condition bsc_ini = -3.97894647316e-07
+Changing boundary condition bsc_ini = -3.27484633481e-07
+Changing boundary condition bsc_ini = -4.26999605406e-07
+Changing boundary condition bsc_ini = -3.29350370964e-07
+Changing boundary condition bsc_ini = -4.46338306553e-07
+Changing boundary condition bsc_ini = -3.42195931296e-07
+Changing boundary condition bsc_ini = -1.71826004501e-07
+Changing boundary condition bsc_ini = -8.26291588629e-08
+Changing boundary condition bsc_ini = -3.32087023374e-07
+Changing boundary condition bsc_ini = -3.15165988486e-08
+Changing boundary condition bsc_ini = -1.26744250816e-07
+Changing boundary condition bsc_ini = -1.43255747389e-08
+Changing boundary condition bsc_ini = -2.46708537131e-07
+Changing boundary condition bsc_ini = -1.18657583574e-07
+Changing boundary condition bsc_ini = -7.1396085095e-08
+Changing boundary condition bsc_ini = -3.80005225883e-09
+Changing boundary condition bsc_ini = -1.11411222598e-07
+Changing boundary condition bsc_ini = -2.23070140068e-07
+Changing boundary condition bsc_ini = -4.3733313732e-07
+Changing boundary condition bsc_ini = -1.6597915462e-07
+Changing boundary condition bsc_ini = -2.72334876415e-07
+Changing boundary condition bsc_ini = -2.13896951862e-07
+Changing boundary condition bsc_ini = -2.56312289547e-07
+Changing boundary condition bsc_ini = -2.861313051e-07
+Changing boundary condition bsc_ini = -3.07576340865e-07
+Changing boundary condition bsc_ini = -3.6725260076e-07
+Changing boundary condition bsc_ini = -3.02119275458e-07
+Changing boundary condition bsc_ini = -9.26747005516e-08
+Changing boundary condition bsc_ini = -9.91917317902e-08
+Changing boundary condition bsc_ini = -6.34316458856e-08
+Changing boundary condition bsc_ini = -2.24073371767e-07
+Changing boundary condition bsc_ini = -3.19067775954e-07
+Changing boundary condition bsc_ini = -3.83775395841e-07
+Changing boundary condition bsc_ini = -5.3971232736e-08
+Changing boundary condition bsc_ini = -5.57465415113e-08
+Changing boundary condition bsc_ini = -5.08496102546e-10
+Changing boundary condition bsc_ini = -3.56887636527e-07
+Changing boundary condition bsc_ini = -3.9939649962e-07
+Changing boundary condition bsc_ini = -4.00455400628e-07
+Changing boundary condition bsc_ini = -3.84373609148e-07
+Changing boundary condition bsc_ini = -6.24736387604e-07
+Changing boundary condition bsc_ini = -5.20253349191e-07
+Changing boundary condition bsc_ini = -5.68131338002e-07
+Changing boundary condition bsc_ini = -3.02918834335e-07
+Changing boundary condition bsc_ini = -5.37192904062e-07
+Changing boundary condition bsc_ini = -4.17640604474e-07
+Changing boundary condition bsc_ini = -5.53141161504e-07
+Changing boundary condition bsc_ini = -4.41411426283e-07
+Changing boundary condition bsc_ini = -4.54474548682e-07
+Changing boundary condition bsc_ini = -4.26300637163e-07
+Changing boundary condition bsc_ini = -3.70527046479e-07
+Changing boundary condition bsc_ini = -3.9411687264e-07
+Changing boundary condition bsc_ini = -4.56951458894e-07
+Changing boundary condition bsc_ini = -3.97626622523e-07
+Changing boundary condition bsc_ini = -3.47865616458e-07
+Changing boundary condition bsc_ini = -4.04527681171e-07
+Changing boundary condition bsc_ini = -4.41174025374e-07
+Changing boundary condition bsc_ini = -3.35544344427e-07
+Changing boundary condition bsc_ini = -4.40602940408e-07
+Changing boundary condition bsc_ini = -4.64204196551e-07
+Changing boundary condition bsc_ini = -4.73392825277e-07
+Changing boundary condition bsc_ini = -4.11544530506e-07
+Changing boundary condition bsc_ini = -3.84773856333e-07
+Changing boundary condition bsc_ini = -4.16516158511e-07
+Changing boundary condition bsc_ini = -3.11594533266e-08
+Changing boundary condition bsc_ini = -4.65453874574e-07
+Changing boundary condition bsc_ini = -4.46895808062e-07
+Changing boundary condition bsc_ini = -3.07178156926e-08
+Max. Att. Backscatter: 0.00067599775003
+Plotting attenuated backscatter coefficients...
+Original data: 1368600 points
+Using horizontal rebin with wx=2
+Original data: 1368600 points
+Using horizontal rebin with wx=2
+Plotting extinction coefficients...
+Original data: 684300 points
+Original data: 684300 points
+Plotting depolarization ratio...
+Original data: 1368600 points
+Using horizontal rebin with wx=2
+Creating monthly NetCDF files
+**** Function monthly_ncd ****
+Found file:  06_2017.nc
+**********************
+Updating file: /home/lmingari/lidar_v2.1/Output/Tucuman/06_2017.nc
+600 300
+Done!
+******** Done ! **********

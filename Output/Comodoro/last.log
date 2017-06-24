@@ -1,0 +1,129 @@
+Working for station Comodoro
+Reading binary data from LICEL from 2017-06-02 00:00:00 to 2017-06-24 18:42:00
+Looking for binary raw data in /home/lmingari/savernet/Comodoro/
+Output file (NetCDF format): ccurrent.nc
+Using File size: 82492
+Found file:  /home/lmingari/lidar_v2.1/Raw_data/ccurrent.nc
+Time range found: 2017-06-24 17:00:00-2017-06-24 18:00:00
+Reading folder:  20170624/
+************ ch1 ************
+Using channel: 532 nm
+End:  2017-06-24 17:16:07
+Name:  c1762417.160712
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -67.5
+Channels:  5
+Start:  2017-06-24 17:15:56
+HeightASL:  48.0
+Station:  Comodoro
+Laser1Shots:  301
+Laser1Frequency:  30
+Latitude:  -45.8
+************ ch2 ************
+Using channel: 532 nm
+End:  2017-06-24 17:16:07
+Name:  c1762417.160712
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -67.5
+Channels:  5
+Start:  2017-06-24 17:15:56
+HeightASL:  48.0
+Station:  Comodoro
+Laser1Shots:  301
+Laser1Frequency:  30
+Latitude:  -45.8
+************ ch3 ************
+Using channel: 1064 nm
+End:  2017-06-24 17:16:07
+Name:  c1762417.160712
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -67.5
+Channels:  5
+Start:  2017-06-24 17:15:56
+HeightASL:  48.0
+Station:  Comodoro
+Laser1Shots:  301
+Laser1Frequency:  30
+Latitude:  -45.8
+Updating file:  ccurrent.nc
+**********************
+Updating file: /home/lmingari/lidar_v2.1/Raw_data/ccurrent.nc
+Done!
+**********************
+Opening file:  /home/lmingari/lidar_v2.1/Raw_data/ccurrent.nc
+Max Value for channel 1: 3882.85571289 mV km2
+Max Value for channel 2: 356.401367188 mV km2
+Max Value for channel 3: 1228.11657715 mV km2
+Performing power corrections...
+**** Function power ****
+Applying power correction for  2017-06-14 10:00:00
+cvis_par=0.66 - cvis_per=0.66 - cir=1.0
+Applying power correction for  2017-06-17 16:00:00
+cvis_par=1.25 - cvis_per=1.25 - cir=1.0
+**** Function depol ****
+Linear fit: slope=1.1684667313
+Using depol=1.1684667313 instead of depol=2.0
+Performing overlap corrections...
+**** Function overlap ****
+Overlap File: /home/lmingari/lidar_v2.1/Output/Comodoro/overlap.cfg
+Checking file consistence...
+OK
+**** Function overlap ****
+Overlap File: /home/lmingari/lidar_v2.1/Output/Comodoro/overlap.cfg
+Checking file consistence...
+OK
+**** Function vis_factor ****
+Index of maximum in histogram: 33
+Maximum histogram: -0.25
+**** Function color_ratio ****
+Number of Cloud points: 22500 - Color Ratio: 1.5510325794e-05
+Plotting channel relation...
+Calibration factor - Visible channel: 17782.7941004
+Calibration factor - IR channel: 64473.1782738
+Vis. channel: min=-671638.4375, max=61439456.0
+IR channel: min=-1156253.5, max=79180576.0
+REBIN successful. Vertical resolution: 30.0000011921 m
+Calibration constant: 8685700488.61
+Changing boundary condition bsc_ini = -1.03317582213e-06
+Changing boundary condition bsc_ini = -1.10759018293e-06
+Changing boundary condition bsc_ini = -1.3259260775e-06
+Changing boundary condition bsc_ini = -5.46470177561e-07
+Changing boundary condition bsc_ini = -1.33732871706e-06
+Changing boundary condition bsc_ini = -1.45964937537e-08
+Changing boundary condition bsc_ini = -2.79184812008e-07
+Changing boundary condition bsc_ini = -9.73190249559e-07
+Changing boundary condition bsc_ini = -9.53328468125e-07
+Changing boundary condition bsc_ini = -8.63496296702e-07
+Changing boundary condition bsc_ini = -5.11484292064e-07
+Changing boundary condition bsc_ini = -1.07754580585e-06
+Changing boundary condition bsc_ini = -1.16125777576e-06
+Changing boundary condition bsc_ini = -5.36905727909e-08
+Changing boundary condition bsc_ini = -1.47732066369e-06
+Changing boundary condition bsc_ini = -6.1814464694e-07
+Changing boundary condition bsc_ini = -9.2725264162e-07
+Max. Att. Backscatter: 0.00650592454507
+Plotting attenuated backscatter coefficients...
+Original data: 1368600 points
+Using horizontal rebin with wx=2
+Original data: 1368600 points
+Using horizontal rebin with wx=2
+Plotting extinction coefficients...
+Original data: 684300 points
+Original data: 684300 points
+Plotting depolarization ratio...
+Original data: 1368600 points
+Using horizontal rebin with wx=2
+Creating monthly NetCDF files
+**** Function monthly_ncd ****
+Found file:  06_2017.nc
+**********************
+Updating file: /home/lmingari/lidar_v2.1/Output/Comodoro/06_2017.nc
+600 300
+Done!
+******** Done ! **********

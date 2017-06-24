@@ -1,0 +1,10 @@
+Working for station Bariloche
+Reading binary data from LICEL from 2017-06-02 00:00:00 to 2017-06-24 18:42:00
+Looking for binary raw data in /home/lmingari/savernet/Bariloche/
+Output file (NetCDF format): bcurrent.nc
+Using File size: 98942
+Found file:  /home/lmingari/lidar_v2.1/Raw_data/bcurrent.nc
+Time range found: 2017-06-14 23:00:00-2017-06-14 23:00:00
+Nothing to do
+Waiting for new data
+******** Done ! **********

@@ -1,0 +1,141 @@
+Working for station Cordoba
+Reading binary data from LICEL from 2017-06-02 00:00:00 to 2017-06-24 18:42:00
+Looking for binary raw data in /home/lmingari/savernet/Cordoba/
+Output file (NetCDF format): pcurrent.nc
+Using File size: 197642
+Found file:  /home/lmingari/lidar_v2.1/Raw_data/pcurrent.nc
+Time range found: 2017-06-24 16:30:00-2017-06-24 17:30:00
+Reading folder:  20170624/
+************ ch3 ************
+Using channel: 1064 nm
+End:  2017-06-24 17:05:31
+Name:  p1762417.053150
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -64.1
+Channels:  12
+Start:  2017-06-24 17:05:01
+HeightASL:  411.0
+Station:  LidarCOR
+Laser1Shots:  301
+Laser1Frequency:  10
+Latitude:  -31.2
+************ ch1 ************
+Using channel: 532 nm
+End:  2017-06-24 17:05:31
+Name:  p1762417.053150
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -64.1
+Channels:  12
+Start:  2017-06-24 17:05:01
+HeightASL:  411.0
+Station:  LidarCOR
+Laser1Shots:  301
+Laser1Frequency:  10
+Latitude:  -31.2
+************ ch2 ************
+Using channel: 532 nm
+End:  2017-06-24 17:05:31
+Name:  p1762417.053150
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -64.1
+Channels:  12
+Start:  2017-06-24 17:05:01
+HeightASL:  411.0
+Station:  LidarCOR
+Laser1Shots:  301
+Laser1Frequency:  10
+Latitude:  -31.2
+************ ch1 ************
+Using channel: 532 nm
+End:  2017-06-24 17:05:31
+Name:  p1762417.053150
+Laser2Frequency:  0
+ZenithAngle:  0.0
+Laser2Shots:  301
+Longitude:  -64.1
+Channels:  12
+Start:  2017-06-24 17:05:01
+HeightASL:  411.0
+Station:  LidarCOR
+Laser1Shots:  301
+Laser1Frequency:  10
+Latitude:  -31.2
+Updating file:  pcurrent.nc
+**********************
+Updating file: /home/lmingari/lidar_v2.1/Raw_data/pcurrent.nc
+Done!
+**********************
+Opening file:  /home/lmingari/lidar_v2.1/Raw_data/pcurrent.nc
+Max Value for channel 1: 443.451568604 mV km2
+Max Value for channel 2: 165.457778931 mV km2
+Max Value for channel 3: 1191.47119141 mV km2
+Performing power corrections...
+**** Function power ****
+Applying power correction for  2017-06-21 15:15:00
+cvis_par=0.65 - cvis_per=0.65 - cir=1.0
+**** Function depol ****
+Linear fit: slope=0.725266684828
+Performing overlap corrections...
+**** Function overlap ****
+Overlap File: /home/lmingari/lidar_v2.1/Output/Cordoba/overlap.cfg
+Checking file consistence...
+Overlap File not found
+**** Function overlap ****
+Overlap File: /home/lmingari/lidar_v2.1/Output/Cordoba/overlap.cfg
+Checking file consistence...
+Overlap File not found
+**** Function vis_factor ****
+Index of maximum in histogram: 36
+Maximum histogram: 0.0
+**** Function color_ratio ****
+Number of Cloud points: 1950 - Color Ratio: 0.000128450185956
+Plotting channel relation...
+Calibration factor - Visible channel: 10000.0
+Calibration factor - IR channel: 7785.11913051
+Vis. channel: min=-266804.28125, max=5092513.5
+IR channel: min=-463775.78125, max=9275745.0
+REBIN successful. Vertical resolution: 30.0000011921 m
+Calibration constant: 13059244875.5
+Changing boundary condition bsc_ini = -1.55882572789e-07
+Changing boundary condition bsc_ini = -7.33989871841e-07
+Changing boundary condition bsc_ini = -2.36162504084e-07
+Changing boundary condition bsc_ini = -5.16126979268e-07
+Changing boundary condition bsc_ini = -6.8006530743e-08
+Changing boundary condition bsc_ini = -4.7405085394e-07
+Changing boundary condition bsc_ini = -8.28360253895e-07
+Changing boundary condition bsc_ini = -5.64918081169e-07
+Changing boundary condition bsc_ini = -3.5120230653e-07
+Changing boundary condition bsc_ini = -2.23936765676e-07
+Changing boundary condition bsc_ini = -2.90804590314e-08
+Changing boundary condition bsc_ini = -6.38045823079e-07
+Changing boundary condition bsc_ini = -3.19012646441e-09
+Changing boundary condition bsc_ini = -2.57456627539e-07
+Changing boundary condition bsc_ini = -1.46112659366e-08
+Changing boundary condition bsc_ini = -1.56702518801e-07
+Changing boundary condition bsc_ini = -1.20967681573e-06
+Changing boundary condition bsc_ini = -1.71255054847e-07
+Changing boundary condition bsc_ini = -1.38893928651e-07
+Changing boundary condition bsc_ini = -1.19360773332e-06
+Max. Att. Backscatter: 0.000332979972538
+Plotting attenuated backscatter coefficients...
+Original data: 696600 points
+Original data: 696600 points
+Plotting extinction coefficients...
+Original data: 348300 points
+Original data: 348300 points
+Plotting depolarization ratio...
+Original data: 696600 points
+Creating monthly NetCDF files
+**** Function monthly_ncd ****
+Found file:  06_2017.nc
+**********************
+Updating file: /home/lmingari/lidar_v2.1/Output/Cordoba/06_2017.nc
+600 300
+Done!
+******** Done ! **********
